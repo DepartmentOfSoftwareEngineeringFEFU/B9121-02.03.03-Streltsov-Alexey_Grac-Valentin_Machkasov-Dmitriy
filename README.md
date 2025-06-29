@@ -80,6 +80,10 @@ docker network connect postgresqlusers_default InterpretatorService
 Изменить на 1) "UsersDb": "Host=localhost;Port=5435;Database=users;Username=postgres;Password=12345"  
 Вернуть на 2) "UsersDb": "Host=postgres-users;Port=5432;Database=users;Username=postgres;Password=12345"  
 
+Для проекта SKAT необходимо настроить в appsetings.json строки подключения к сервисам, конкретно нужно назначить правильные порты, такиеже как в docker desktop, для http.
+ApiSettings для подключения к интерпритатору.
+EvaluationService для подключения к сервису оценки.
+
 Очень важно очистить директорию /code_files/ от файлов в InterpretatorSerivce. Должны остаться только: "debug.txt", "logs.txt", папка TestData.  
 
 Можно запускать все 3 проекта.  
