@@ -1,0 +1,9 @@
+[submodule "modules/SKAT"]
+	path = modules/SKAT
+	url = https://github.com/1DimBeam1/SKAT.git
+[submodule "modules/InterpretatorService"]
+	path = modules/InterpretatorService
+	url = https://github.com/Lexaky/InterpretatorService.git
+[submodule "modules/MarkSubsystem"]
+	path = modules/MarkSubsystem
+	url = https://github.com/Lexaky/MarkSubsystem.git
